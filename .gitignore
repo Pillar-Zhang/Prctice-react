@@ -1,0 +1,10 @@
+dist/
+node_modules/
+
+
+#vscode config
+jsconfig.json
+typings/
+typings.json
+
+ 
