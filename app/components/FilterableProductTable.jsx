@@ -28,8 +28,10 @@ var ProductTable = React.createClass({
     var lastCategory = null;
     this.props.products.forEach(function(product) {
       if (product.category !== lastCategory) {
+        console.log("category");
         rows.push(<ProductCategoryRow category={product.category} key={product.category} />);
       }
+      console.log("name");
       rows.push(<ProductRow product={product} key={product.name} />);
       lastCategory = product.category;
     });
