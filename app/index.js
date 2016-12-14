@@ -7,7 +7,7 @@ import 'materialize-css/bin/materialize.css';
 import 'materialize-css/bin/materialize.js';
 
 //css
-import './css/style.scss';
+import './sass/style.scss';
 
 //引入组件
 

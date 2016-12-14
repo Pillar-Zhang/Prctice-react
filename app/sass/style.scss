@@ -1,0 +1,197 @@
+body {
+  color: blue;
+  //  background-image: url(../images/body.png);
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+  box-flex: 1.0;
+}
+
+.item-1 {
+  order: 10;
+  flex-shrink: 24;
+}
+
+.item-2 {
+  height: auto;
+  order: 3;
+  flex-grow: 8;
+  align-items: stretch;
+  flex-basis: 600px;
+  z-index: 10;
+}
+
+.item-3 {
+  order: 4;
+  flex-grow: 4;
+  flex-shrink: 24;
+  height: 300px;
+}
+
+.item-4 {
+  order: 3;
+  flex-grow: 8;
+  flex-basis: 100px;
+  align-self: center;
+}
+
+.item-5 {
+  order: 5;
+  flex-shrink: 24;
+}
+
+.item-6 {
+  order: 5;
+  flex-shrink: 24;
+}
+
+.item-7 {
+  order: 5;
+  align-self: flex-start;
+  flex-shrink: 24;
+}
+
+.item-8 {
+  order: 5;
+  flex-shrink: 24;
+}
+
+.item-9 {
+  order: 5;
+  flex-shrink: 24;
+}
+
+.item-10 {
+  order: 5;
+  flex-shrink: 24;
+}
+
+.row {
+  div {
+    border: solid 1px red;
+    height: 200px;
+  }
+}
+
+.relative {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0px;
+  border: 1px solid blue;
+
+  div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 1px solid red;
+    background-color: white;
+  }
+
+  .click-change-width {
+    animation: scal1 1s;
+    animation-fill-mode:both;
+     
+
+    @keyframes scal1 {
+      from {
+        width: 200px;
+      }
+
+      to {
+        width: 80%;
+        height: 80%;
+        background-color: white;
+        animation-play-state:paused;
+        z-index: 5;
+        
+      }
+    }
+  }
+
+  div:nth-child(1) {
+    top: 10px;
+    left: 20px;
+    width: 200px;
+    height: 400px;
+  }
+
+  div:nth-child(2) {
+    top: 10px;
+    left: 240px;
+    width: 300px;
+    height: 200px;
+  }
+
+  div:nth-child(3) {
+    top: 230px;
+    left: 240px;
+    width: 300px;
+    height: 180px;
+  }
+
+  div:nth-child(4) {
+    top: 10px;
+    left: 560px;
+    width: 150px;
+    height: 300px;
+  }
+
+  div:nth-child(5) {
+    top: 330px;
+    left: 560px;
+    width: 150px;
+    height: 80px;
+  }
+
+  div:nth-child(6) {
+    top: 430px;
+    left: 20px;
+    width: 350px;
+    height: 100px;
+  }
+
+  div:nth-child(7) {
+    top: 430px;
+    left: 390px;
+    width: 320px;
+    height: 100px;
+  }
+
+  div:nth-child(8) {
+    top: 10px;
+    left: 550px;
+    width: 100px;
+    height: 100px;
+  }
+
+  div:nth-child(9) {
+    top: 10px;
+    left: 430px;
+    width: 100px;
+    height: 100px;
+  }
+
+  div:nth-child(10) {
+    top: 10px;
+    left: 430px;
+    width: 100px;
+    height: 100px;
+  }
+}

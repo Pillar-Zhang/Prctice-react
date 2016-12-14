@@ -72,6 +72,6 @@ module.exports = {
         progress: true,
         stats: 'errors-only',
         host: process.env.HOST,
-        port: process.env.PORT || 3000
+        port: process.env.PORT || 5000
     }
 }
