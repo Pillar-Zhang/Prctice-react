@@ -11,8 +11,8 @@ class Main extends Component {
     render() {
         
         return (
-            <div>
-                <Col />
+            <div style={{height:"100%"}}>
+                <Absolute  />
             </div>
         );
     }

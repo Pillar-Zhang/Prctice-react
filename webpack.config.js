@@ -5,7 +5,8 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         index: path.resolve(__dirname, 'app/index.js'),
-        vendors: ['jquery', 'react', 'materialize-css'
+        vendors: ['jquery', 'react', 'materialize-css',
+            'underscore'
         ]
 
     },

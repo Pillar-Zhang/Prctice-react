@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+.relativeWrap {
+  position: relative;
+  top: 30px;
+  width: 85.41%;
+  height: 92.631%;
+  min-width: 1165px;
+//   width: 1165px;
+  min-height: 625px;
+  margin: 0 auto;
+  padding: 0px;
+  border: 1px solid blue;
+
+  div {
+    position: absolute;
+    border: 1px solid red;
+    background-color: white;
+    cursor: pointer;
+    min-width: 225px;
+    min-height: 133px;
+  }
+
+  div:nth-child(1) {
+    top: 0px;
+    left: 0px;
+    min-width: 225px;
+    min-height: 419px;
+  }
+
+  div:nth-child(2) {
+    top: 0px;
+    left: 235px;
+    min-width: 225px;
+    min-height: 248px;
+  }
+
+  div:nth-child(3) {
+    top: 258px;
+    left: 235px;
+    min-width: 225px;
+    min-height: 161px;
+  }
+
+  div:nth-child(4) {
+    top: 0px;
+    left: 470px;
+    min-width: 225px;
+    min-height: 419px;
+  }
+
+  div:nth-child(5) {
+    top: 0px;
+    left: 705px;
+    min-width: 225px;
+    min-height: 248px;
+  }
+
+  div:nth-child(6) {
+    top: 258px;
+    left: 705px;
+    min-width: 225px;
+    min-height: 161px;
+  }
+
+  div:nth-child(7) {
+    top: 0px;
+    left: 940px;
+    min-width: 225px;
+    min-height: 419px;
+  }
+
+  div:nth-child(8) {
+    top: 429px;
+    left: 0px;
+    min-width: 577px;
+    min-height: 196px;
+  }
+
+  div:nth-child(9) {
+    top: 429px;
+    left: 587px;
+    min-width: 578px;
+    min-height: 196px;
+  }
+}
